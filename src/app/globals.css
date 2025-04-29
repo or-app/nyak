@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.nyak-color{
+  background:#FFC000;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +23,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:#FFC000;
+  background-image: url("/background.png");
+  background-repeat: no-repeat; /* 画像の繰り返しをなくす */
+  background-position: right bottom; /* 右下に固定 */
+  background-size: auto; /* 画像が要素内に収まるように調整 */
 }
 
 @layer utilities {
