@@ -22,11 +22,11 @@ export default function Home() {
         <p className="text-center text-2xl pb-5">制作実績</p>
         <div className="text-center">
           <div className="flex flex-wrap justify-center">
-              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/J6j74qOO9LY?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/1YKATtmczPs?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/J6j74qOO9LY?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1&loop=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/1YKATtmczPs?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1&loop=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
               <a href="https://www.foriio.com/works/1499693"><Image src="/charact_webcomponent.jpg" width={200} height={200}  alt="Charact Webcomponent 制作" className="w-64 h-36 rounded-xl m-5"/> </a>
-              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/RlAae_CrhII?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>  
-              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/n6smirq8gpk?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/RlAae_CrhII?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1&loop=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>  
+              <iframe className="w-64 h-36 rounded-xl m-5" width="480" height="270" src="https://www.youtube.com/embed/n6smirq8gpk?si=YKVBhauD4UPsgv-F&autoplay=1&mute=1&loop=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>  
         </div>
       </div>
